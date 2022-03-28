@@ -1,0 +1,6 @@
+framework module MFAdsAdspot {
+  umbrella header "MFAdsAdspot.h"
+
+  export *
+  module * { export * }
+}

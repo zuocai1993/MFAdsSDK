@@ -1,0 +1,18 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MFAdsSDK_Example' do
+  pod 'MFAdsSDK', :path => '../'
+  pod 'MFAdsSDK/CSJ', :path => '../'
+#  pod 'MFAdsSDK/GDT', :path => '../'
+#  pod 'MFAdsSDK/KS', :path => '../'
+#  pod 'MFAdsSDK/BD', :path => '../'
+  
+  pod 'Masonry'
+    
+  target 'MFAdsSDK_Tests' do
+    inherit! :search_paths
+  end
+
+end
